@@ -1,0 +1,357 @@
+.bg {
+    background-image: url("media/20374.jpg");
+    background-position-x: center;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.bg .B-title {
+    margin: 30px auto;
+    width: 90vw;
+    max-width: 1300px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: rgb(102, 153, 169) 3px 3px 3px;
+    font-weight: bold;
+    display: block;
+}
+
+.bg .main {
+    background-color: #ffffffcc;
+    padding: 12px;
+    width: 90vw;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.bg .main .row {
+    margin: auto;
+}
+
+.bg .main .row .col1 {
+    padding: 0px;
+    padding-right: 12px;
+}
+
+.bg .main .row .input {
+    padding: 12px;
+}
+
+.bg .main .row .col1 .info-per {
+    padding-bottom: 12px;
+}
+
+.bg .main .row .col1 .info-pro {
+    border-top: solid 2px #ccc;
+    padding-top: 12px;
+}
+
+.bg .main .other-specialite .col-2 {
+    padding: 0px;
+    padding-right: 24px;
+}
+
+.bg .main .other-specialite .col-2 span {
+    background-color: rgba(19, 168, 214, 0.95);
+    border: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 35px;
+    padding: 0px;
+    line-height: 13px;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: background-color 300ms;
+    cursor: pointer;
+    margin: 31px auto;
+}
+
+.bg .main .other-specialite .col-2 span:hover {
+    background-color: rgba(92, 184, 92, 0.95);
+}
+
+.bg .main .row #add-Speciality {
+    cursor: pointer;
+    color: rgba(19, 168, 214, 0.95);
+    margin-left: 10px;
+    font-size: large;
+    transition: color 300ms;
+}
+
+.bg .main .row #add-Speciality span {
+    background-color: rgba(19, 168, 214, 0.95);
+    border: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: text-bottom;
+    color: white;
+    display: inline-block;
+    transition: background-color 300ms;
+}
+
+.bg .main .row #add-Speciality:hover {
+    color: rgba(92, 184, 92, 0.95);
+}
+
+.bg .main .row #add-Speciality:hover span {
+    background-color: rgba(92, 184, 92, 0.95);
+}
+
+.bg .main .row #address {
+    min-height: 58px;
+}
+
+.bg .main .row .phone-portable .comment {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    margin-left: 10px;
+    display: block;
+}
+
+.bg .main .row .submit button {
+    background-color: rgba(19, 168, 214, 0.95);
+    color: white;
+    transition: background-color 300ms;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bg .main .row .submit button:hover {
+    background-color: rgba(92, 184, 92, 0.95);
+}
+
+.bg .main .col2 {
+    padding: 0px 12px 0px 24px;
+    font-size: 27px;
+    font-weight: bold;
+    border-left: solid 2px #ccc;
+}
+
+.bg .main .col2 .row {
+    padding: 12px 0px 24px;
+}
+
+.bg .main .col2 .etape {
+    border-top: solid 1.5px #ccc;
+    padding: 24px 0px;
+}
+
+.bg .main .col2 .num-etape {
+    display: inline-block;
+    background-color: rgba(92, 184, 92, 0.95);
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bg .main .col2 .des-etape {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    width: calc(100% - 38px);
+}
+
+
+@media(max-width:991.9px) {
+    .bg .B-title {
+        margin: 3.1vw auto !important;
+        font-size: 5.8vw !important;
+        text-shadow: rgb(102, 153, 169) 0.25vw 0.25vw 0.25vw !important;
+    }
+}
+
+@media(max-width:767.9px) {
+    .bg .main .col2 {
+        border-left: none;
+        border-top: solid 2px #ccc;
+    }
+}
+
+@media(max-width:575.9px) {
+    .bg .main {
+        width: 100vw;
+        padding: 2.4vw;
+        margin-bottom: 5vw;
+    }
+
+    .bg .main .row .col1 .info-per {
+        padding-bottom: 2.4vw;
+    }
+
+
+    .bg .main .row .col1 .info-pro {
+        border-top: solid 0.4vw #ccc;
+        padding-top: 2.4vw;
+    }
+
+    .bg .main .row .input {
+        padding: 2.4vw;
+    }
+
+    .bg .main .row .input .form-floating {
+        font-size: 2vw;
+    }
+
+    .bg .main .row .input .form-floating input,
+    .bg .main .row .input .form-floating select {
+        font-size: 3vw;
+        height: 9.5vw;
+        padding: 4vw 2.4vw 1vw;
+        border-radius: 1.5vw;
+        border-width: 0.2vw;
+    }
+
+    .bg .main .row .sexe {
+        font-size: 0px;
+    }
+
+    .bg .main .row .sexe .form-check {
+        font-size: 3vw;
+        min-height: inherit;
+    }
+
+    .bg .main .row .sexe .form-check input {
+        border-width: 0.25vw;
+    }
+
+    .bg .main .row .sexe .form-check input:focus {
+        box-shadow: 0 0 0 1vw rgba(13, 110, 253, 0.25);
+    }
+
+    .bg .main .row .input .form-floating textarea {
+        font-size: 2.5vw;
+        min-height: 9.5vw !important;
+        height: 9.5vw;
+        padding: 4vw 2.4vw 1vw;
+        border-radius: 1.5vw;
+        border-width: 0.2vw;
+    }
+
+    .bg .main .row .input .form-floating input:focus,
+    .bg .main .row .input .form-floating select:focus {
+        box-shadow: 0 0 0 1vw rgba(13, 110, 253, 0.25);
+    }
+
+    .bg .main .row .input .form-floating textarea:focus {
+        box-shadow: 0 0 0 1vw rgba(13, 110, 253, 0.25);
+    }
+
+    .bg .main .row .input .form-floating label {
+        padding: 3vw 2.4vw 3vw;
+        font-size: 2.5vw;
+        border-width: 0px;
+    }
+
+    .bg .main .row .input .form-floating .focused {
+        transform: scale(0.85) translateY(-1.5vw) translateX(0.7vw);
+    }
+
+    .bg .main .other-specialite .col-2 {
+        padding-right: 4.8vw;
+    }
+
+    .bg .main .other-specialite .col-2 span {
+        height: 4vw;
+        width: 4vw;
+        font-size: 7vw;
+        line-height: 2.7vw;
+        margin: 5.15vw auto;
+    }
+
+    .bg .main .row .add-Speciality {
+        height: fit-content;
+        line-height: 1px;
+        font-size: 0px;
+    }
+
+    .bg .main .row #add-Speciality {
+        margin-left: 2.4vw;
+        font-size: 2.5vw;
+    }
+
+    .bg .main .row #add-Speciality span {
+        height: 3.5vw;
+        width: 3.5vw;
+        margin-left: 1.5vw;
+        font-size: 3.5vw;
+        line-height: 3.6vw;
+        vertical-align: -0.3vw;
+    }
+
+    .bg .main .row .phone-portable .comment {
+        font-size: 2.1vw;
+        margin-left: 1vw;
+    }
+
+    .bg .main .row .checkbox .form-check {
+        font-size: 3vw;
+        min-height: inherit;
+    }
+
+    .bg .main .row .checkbox .form-check input {
+        border-width: 0.25vw;
+    }
+
+    .bg .main .row .checkbox .form-check input:focus {
+        box-shadow: 0 0 0 1vw rgba(13, 110, 253, 0.25);
+    }
+
+    .is-invalid:focus {
+        box-shadow: 0 0 0 1vw rgba(220, 53, 69, 0.25) !important;
+    }
+
+    .is-valid:focus {
+        box-shadow: 0 0 0 1vw rgba(25, 135, 84, 0.25) !important;
+    }
+
+    .bg .main .row .submit {
+        font-size: 0px;
+    }
+
+    .bg .main .row .submit button {
+        font-size: 2.5vw;
+        padding: 1vw 2vw;
+        border-radius: 1.8vw;
+    }
+
+    .bg .main .col2 {
+        border-top: solid 0.4vw #ccc;
+        padding: 0px 2.4vw 0px 4.8vw;
+        font-size: 5vw;
+    }
+
+    .bg .main .col2 .row {
+        padding: 2.4vw 0px 4.8vw;
+    }
+
+    .bg .main .col2 .etape {
+        border-top: solid 0.3vw #ccc;
+        padding: 4.8vw 0px;
+    }
+
+    .bg .main .col2 .num-etape {
+        font-size: 4vw;
+        padding: 0px 2vw;
+    }
+
+    .bg .main .col2 .des-etape {
+        font-size: 3.5vw;
+        width: calc(100% - 6.3vw);
+        padding: 0px 2.4vw;
+    }
+}

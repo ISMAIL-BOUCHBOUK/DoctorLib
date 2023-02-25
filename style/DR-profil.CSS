@@ -1,0 +1,364 @@
+.resultat {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 10px 10px 90px rgb(151, 151, 151);
+    padding: 0px 2vw;
+    overflow: hidden;
+}
+
+.resultat .info {
+    border: 1.5px solid #c1c1c1;
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.resultat .info .title {
+    border-bottom: 2px solid #b1b1b1;
+    width: 100%;
+    padding: 5px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F5F8FA;
+    color: #707070;
+    vertical-align: middle;
+}
+
+.resultat .info .title img {
+    height: 20px;
+    width: 30px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.resultat #info-gen .img {
+    float: left;
+    width: 25%;
+    padding: 1.5%;
+}
+
+.resultat .info .content {
+    width: 100%;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #606060;
+}
+
+.resultat #info-gen .content {
+    width: 75%;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    float: left;
+    color: #606060;
+}
+
+.resultat #info-gen .img .dr-picture {
+    width: 100%;
+    border-radius: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.resultat #info-gen .content .dr-sexe {
+    background-size: cover;
+    width: 35px;
+    margin-right: 10px;
+    margin-left: 0px;
+    padding-right: 15px;
+    border-right: 2px solid rgb(213, 213, 213);
+    display: block;
+    float: left;
+}
+
+.resultat #info-gen .content .dr-name {
+    font-size: 25px;
+    width: 100%;
+    color: #595959;
+    display: block;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.resultat #info-gen .content label {
+    font-size: 20px;
+    color: #707070;
+    display: inline-block;
+    margin: 30px 0px 12px;
+}
+
+.resultat #info-gen .content a {
+    color: #E74F84;
+    transition-property: color;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+.resultat #info-gen .content a:hover {
+    color: #606060;
+}
+
+.resultat .info .content .radio-b {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #595959;
+    border-radius: 6px;
+    margin-right: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 4px #595959;
+}
+
+.resultat #cabinet .Cabinet-pictures {
+    width: 80%;
+    aspect-ratio: 4 / 2;
+    margin: 20px auto 50px;
+    background-color: #e9e9e968;
+}
+
+.resultat #cabinet .Cabinet-pictures .carousel-indicators {
+    height: 8%;
+    margin-bottom: 0px;
+}
+
+.resultat #cabinet .Cabinet-pictures .carousel-indicators button {
+    border: none;
+    height: 17%;
+    width: 9%;
+    margin: 0px 2%;
+    border-radius: 10000px;
+}
+
+.resultat #cabinet .Cabinet-pictures .carousel-inner {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.resultat #cabinet .Cabinet-pictures .carousel-inner .carousel-item {
+    height: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resultat #cabinet .Cabinet-pictures .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    backdrop-filter: blur(5px);
+}
+
+.resultat #cabinet .Cabinet-pictures .carousel-control-prev-icon,
+.resultat #cabinet .Cabinet-pictures .carousel-control-next-icon {
+    height: 15%;
+}
+
+.resultat .form-lang {
+    width: 90%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.resultat #formation {
+    border: 1.5px solid #c1c1c1;
+    width: 47%;
+    margin: 0px;
+    float: left;
+}
+
+.resultat #langues {
+    border: 1.5px solid #c1c1c1;
+    width: 47%;
+    margin: 0px;
+    float: right;
+}
+
+.resultat #plan .map {
+    width: 70%;
+    height: 500px;
+    max-height: calc((100vh + 100vw)/4);
+    margin: 20px auto;
+}
+
+@media(max-width:991.9px) {
+
+    .resultat .info {
+        border: 0.15vw solid #c1c1c1;
+        margin: 3vw auto;
+        border-radius: 2vw;
+    }
+
+    .resultat .info .title {
+        border-bottom: 0.2vw solid #b1b1b1;
+        width: 100%;
+        padding: 0.5vw 3vw;
+        font-size: 2vw;
+    }
+
+    .resultat .info .title img {
+        height: 2vw;
+        width: 3vw;
+    }
+
+    .resultat .info .content {
+        padding: 2vw 3vw !important;
+        font-size: 1.7vw;
+    }
+
+    .resultat #info-gen .content {
+        padding: 2vw 3vw;
+        font-size: 1.7vw;
+    }
+
+    .resultat #info-gen .content .dr-sexe {
+        width: 3.7vw;
+        margin-right: 1vw;
+        padding-right: 1.5vw;
+        border-right: 0.3vw solid rgb(213, 213, 213);
+    }
+
+    .resultat #info-gen .content .dr-name {
+        font-size: 2.6vw;
+        margin-bottom: 3vw;
+    }
+
+    .resultat #info-gen .content label {
+        font-size: 2vw;
+        margin: 3vw 0px 1.2vw;
+    }
+
+    .resultat .info .content .radio-b {
+        width: 1.2vw;
+        height: 1.2vw;
+        border-radius: 0.6vw;
+        margin-right: 0.5vw;
+        border: 0.2vw solid #fff;
+        box-shadow: 0px 0px 0.4vw #595959;
+    }
+
+    .resultat #cabinet .Cabinet-pictures {
+        margin: 2vw auto 5vw;
+    }
+
+    .resultat #cabinet .Cabinet-pictures .carousel-inner .carousel-item img {
+        backdrop-filter: blur(0.5vw);
+    }
+
+    .resultat .form-lang {
+        margin: 5vw auto;
+    }
+
+    .resultat #formation,
+    .resultat #langues {
+        border: 0.15vw solid #c1c1c1;
+    }
+
+    .resultat #plan .map {
+        margin: 2vw auto;
+    }
+}
+
+@media(max-width:767.9px) {
+    .resultat {
+        width: 100%;
+    }
+
+    .resultat .info {
+        border: 0.225vw solid #c1c1c1;
+        margin: 4.5vw auto;
+        border-radius: 3vw;
+        width: 93%;
+    }
+
+    .resultat .info .title {
+        border-bottom: 0.3vw solid #b1b1b1;
+        width: 100%;
+        padding: 0.75vw 4.5vw;
+        font-size: 3vw;
+    }
+
+    .resultat .info .title img {
+        height: 3vw;
+        width: 4.5vw;
+    }
+
+    .resultat .info .content {
+        padding: 3vw 4.5vw !important;
+        font-size: 2.5vw;
+    }
+
+    .resultat #info-gen .img {
+        float: none;
+        margin: auto;
+        margin-top: 3vw;
+    }
+
+    .resultat #info-gen .content {
+        padding: 3vw 4.5vw;
+        font-size: 2.5vw;
+        width: 100%;
+    }
+
+    .resultat #info-gen .content .dr-sexe {
+        width: 5vw;
+        margin-right: 1.5vw;
+        padding-right: 1.5vw;
+        border-right: 0.4vw solid rgb(213, 213, 213);
+    }
+
+    .resultat #info-gen .content .dr-name {
+        font-size: 3.9vw;
+        margin-bottom: 3vw;
+        text-align: center;
+        padding-right: 6.1vw;
+    }
+
+    .resultat #info-gen .content label {
+        font-size: 3.1vw;
+        margin: 4.5vw 0px 1.8vw;
+    }
+
+    .resultat .info .content .radio-b {
+        width: 1.8vw;
+        height: 1.8vw;
+        border-radius: 0.9vw;
+        margin-right: 0.75vw;
+        border: 0.3vw solid #fff;
+        box-shadow: 0px 0px 0.6vw #595959;
+    }
+
+    .resultat #cabinet .Cabinet-pictures {
+        margin: 3vw auto 7.5vw;
+    }
+
+    .resultat #cabinet .Cabinet-pictures .carousel-inner .carousel-item img {
+        backdrop-filter: blur(0.5vw);
+    }
+
+    .resultat .form-lang {
+        margin: 7.5vw auto;
+        width: 93%;
+    }
+
+    .resultat #formation {
+        border: 0.225vw solid #c1c1c1;
+        width: 51%;
+    }
+
+    .resultat #langues {
+        border: 0.225vw solid #c1c1c1;
+        width: 46%;
+    }
+
+    .resultat #plan .map {
+        margin: 3vw auto;
+        width: 80%;
+    }
+}

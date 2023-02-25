@@ -1,0 +1,31 @@
+body {
+    display: grid;
+}
+body *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.my_message, .his_message{
+    width: 100%;
+}
+
+.my_message span, .his_message span{
+    padding: 1.5%;
+    margin: 1% 0px;
+    max-width: 60%;
+    min-height: 17.778px;
+    width: fit-content;
+    line-height: 24px;
+    font-size: 18px;
+}
+.my_message span{
+    background-color: coral;
+    float: right;
+    border-radius: 15px 15px 0px 15px;
+}
+.his_message span{
+    background-color: aquamarine;
+    float: left;
+    border-radius: 15px 15px 15px 0px;
+}

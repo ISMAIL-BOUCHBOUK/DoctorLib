@@ -1,0 +1,397 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    background-color: #F8F9FA;
+}
+
+.bg {
+    background-image: url("media/young-handsome-physician-in-medical-robe-with-stethoscope.jpg");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* start-navbar */
+
+.bg .header .navbar {
+    background-color: rgba(85, 133, 137, 0.5);
+    padding: 0.1vw 5vw;
+    height: 62px;
+}
+
+.bg .header .navbar .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 120px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg .header .navbar .navbar-toggler {
+    border: 0.5vw solid rgb(255, 255, 255);
+    border-radius: 0.5vw;
+    margin-left: calc(50% - 12vw - 8vw);
+    width: 8vw;
+    height: 8vw;
+    padding: 0.6vw;
+    opacity: 0.7;
+    transition-property: opacity;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+}
+
+.bg .header .navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.bg .header .navbar .navbar-toggler img {
+    width: 100%;
+    display: block;
+
+}
+
+.bg .header .navbar .navbar-toggler:hover {
+    opacity: 0.9;
+}
+
+.bg .header .navbar .offcanvas {
+    max-width: 1180px;
+}
+
+.bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link button {
+    height: 40px;
+    padding: 0px 11px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    background-color: rgba(19, 168, 214, 0.95);
+    border: none;
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+    font-weight: bold;
+}
+
+.bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link button img {
+    height: 60%;
+}
+
+.bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link .btn-success {
+    background-color: rgba(92, 184, 92, 0.95);
+}
+
+.bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link .btn:hover {
+    background-color: rgba(12, 121, 237, 0.95);
+    cursor: pointer;
+}
+
+.bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link .btn-success:hover {
+    background-color: rgba(92, 184, 92, 0.95);
+}
+
+/* end-navbar */
+
+.bg .header .B-title {
+    margin: 80px auto 0px;
+    width: 90%;
+    max-width: 1300px;
+    font-size: 62px;
+    text-align: center;
+    color: white;
+    text-shadow: rgb(176, 226, 241) 2px 2px 2px;
+    font-weight: bold;
+    display: block;
+}
+
+.bg .header .S-title {
+    margin: 10px auto 80px;
+    width: 90%;
+    max-width: 1300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: rgb(176, 226, 241) 2px 2px 2px;
+    font-weight: bold;
+    display: block;
+}
+
+.bg .header .search-box {
+    margin-bottom: 80px;
+    padding: 10px;
+    width: 90vw;
+    max-width: 1300px;
+    background-color: #55858980;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.bg .header .search-box form {
+    padding: 0px;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.bg .header .search-box form input,
+.bg .header .search-box form select,
+.bg .header .search-box form button {
+    margin: 0px;
+    height: 40px;
+    border: none;
+    border-radius: 1px;
+    font-size: 17px;
+    width: calc(calc(100% - 8.9px)/3);
+    padding: 0px 10px;
+}
+
+.bg .header .search-box form .collapse .search-avan {
+    margin-top: 4.5px;
+}
+
+.bg .header .search-box form #search {
+    background-color: #fdbf2d;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-timing-function: ease;
+    transition-duration: 300ms;
+}
+
+.bg .header .search-box form #search img {
+    height: 20px;
+    vertical-align: sub;
+}
+
+.bg .header .search-box form #search:hover {
+    background-color: #FDD473;
+    color: #808080;
+}
+
+.bg .header .search-box form #advanced-search {
+    overflow: hidden;
+    height: 0px;
+}
+
+.bg .header .search-box form #advanced-search .search-avan {
+    display: inline-block;
+    margin: 4.5px 0px 0px;
+}
+
+.bg .header .search-box .s-type {
+    margin: 15px auto 5px;
+}
+
+.bg .header .search-box .s-type * {
+    width: 190px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(19, 168, 214, 0.95);
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.bg .header .search-box .s-type .active {
+    background-color: rgba(92, 184, 92, 0.95);
+    cursor: default;
+}
+
+.main {
+    background-color: #F5F8FA;
+    padding: 80px 5vw;
+}
+
+.main .B-title {
+    color: #333333;
+    display: block;
+    max-width: 1300px;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.main .S-title {
+    color: #777777;
+    display: block;
+    max-width: 1300px;
+    font-size: 23px;
+    text-align: center;
+    margin: 20px auto 80px;
+}
+
+@media(max-width:991.9px) {
+    .bg .header .navbar {
+        height: 14vw;
+    }
+
+    .bg .header .navbar .navbar-brand {
+        font-size: 8vw;
+        width: 24vw;
+        text-align: center;
+    }
+
+    .bg .header .navbar .offcanvas {
+        background-color: rgba(85, 133, 137, 0.9);
+    }
+
+    .bg .header .navbar .offcanvas-body {
+        padding: 0px;
+    }
+
+    .bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link {
+        padding: 0px;
+        height: 6vw;
+        font-size: 0px;
+    }
+
+    .bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link button {
+        border-radius: 0px;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.451);
+        width: 100%;
+        text-align: left;
+        font-size: 3vw !important;
+        height: 6vw;
+    }
+
+    .bg .header .B-title {
+        margin: 10vw auto 0px;
+        font-size: 6.36vw;
+    }
+
+    .bg .header .S-title {
+        margin: 1.25vw auto 10vw;
+        font-size: 3.1vw;
+    }
+
+    .bg .header .search-box {
+        width: 85vw;
+        margin: 0px auto 10vw;
+        border-radius: 1vw;
+        padding: 2vw;
+    }
+
+    .bg .header .search-box form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1.5vw;
+    }
+
+    .bg .header .search-box form input,
+    .bg .header .search-box form select,
+    .bg .header .search-box form button {
+        font-size: 3vw;
+        height: 6vw;
+        width: 100%;
+        margin: 0px;
+        border-radius: 0.2vw;
+    }
+
+    .bg .header .search-box form #ville {
+        margin-top: 0.5vw;
+    }
+
+    .bg .header .search-box form #search {
+        margin-top: 0.5vw;
+        order: 2;
+    }
+
+    .bg .header .search-box form #search img {
+        height: 3.5vw !important;
+    }
+
+    .bg .header .search-box form #advanced-search {
+        order: 1;
+    }
+
+    .bg .header .search-box form .search-avan {
+        margin-top: 0.5vw !important;
+        padding-left: 13px;
+        display: block !important;
+    }
+
+    .bg .header .search-box .s-type {
+        margin: 0px;
+        font-size: 0px;
+    }
+
+    .bg .header .search-box .s-type * {
+        font-size: 2.3vw;
+        width: fit-content;
+        margin: 2vw 1vw 0px;
+        border-radius: 2vw;
+        padding: 1.3vw 5vw;
+
+    }
+}
+
+@media(max-width:767.9px) {
+
+    .bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link {
+        height: 9vw;
+    }
+
+    .bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link button {
+        padding: 0px 3vw;
+        font-size: 4vw !important;
+        height: 100%;
+    }
+
+    .bg .header .search-box {
+        width: 85vw;
+    }
+
+    .bg .header .search-box form input,
+    .bg .header .search-box form select,
+    .bg .header .search-box form button {
+        padding: 0px 1vw;
+    }
+
+    .bg .header .search-box form .search-avan {
+        padding: 0px 2.2vw !important;
+    }
+}
+
+@media(max-width:575.9px) {
+
+    .bg .header .navbar .offcanvas {
+        width: 70vw;
+    }
+
+    .bg .header .navbar .offcanvas .offcanvas-header {
+        padding: 3vw;
+        height: 10vw;
+    }
+
+    .bg .header .navbar .offcanvas .offcanvas-header .btn-close {
+        font-size: 4vw;
+        margin: 0px;
+        padding: 2vw;
+    }
+
+
+    .bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link {
+        height: 11vw;
+    }
+
+    .bg .header .navbar .offcanvas .navbar-nav .nav-item .nav-link button {
+        font-size: 4.5vw !important;
+        height: 100%;
+    }
+
+    .bg .header .search-box {
+        width: 90vw;
+    }
+
+    .bg .header .search-box form .search-avan {
+        padding: 0px 3vw !important;
+    }
+
+}

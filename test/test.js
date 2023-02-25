@@ -1,0 +1,2 @@
+
+console.log(ln+" "+fn);

@@ -1,0 +1,135 @@
+
+
+.bg {
+    background-image: url("media/20374.jpg");
+    background-position-x: center;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.bg .main {
+    background-color: initial;
+    padding: 0px;
+    width: 100vw;
+}
+
+.bg .main .B-title{
+    margin: 30px auto;
+    width: 90vw;
+    max-width: 1300px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: rgb(102, 153, 169) 3px 3px 3px;
+    font-weight: bold;
+    display: block;
+}
+
+
+.bg .main .categorie-hor{
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    height: calc(100vh - (62px + 4vw + 127.5px));
+    max-height: 400px;
+    min-height: 20vw;
+    margin-bottom: 4vw;
+}
+
+.bg .main .categorie-ver{
+    aspect-ratio: 4 / 5;
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.bg .main .categorie-hor img{
+    padding: 5px;
+    opacity: 0.95;
+    transition: all 0.3s;
+    object-fit: contain;
+    object-position: center;
+    cursor: pointer;
+    height: 100%;
+    width: 40%;
+}
+
+.bg .main .categorie-ver img{
+    padding: 5px;
+    opacity: 0.95;
+    transition: all 0.3s;
+    object-fit: contain;
+    object-position: center;
+    cursor: pointer;
+    height: 60%;
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.bg .main .categorie-hor img:hover{
+    padding: 0px;
+    opacity: 0.96;
+}
+
+.bg .main .categorie-ver img:hover{
+    padding: 0px;
+    opacity: 0.96;
+}
+
+.bg .main .categorie-hor .med{
+    float: left;
+}
+
+.bg .main .categorie-ver .med{
+    margin-bottom: 8vw;
+}
+
+.bg .main .categorie-hor .use{
+    float: right;
+}
+
+.bg .main .categorie-ver .use{
+    margin-bottom: 8vw;
+}
+
+
+@media (min-width : 1430px) {
+
+    .bg .main .categorie-hor{
+        height: calc(100vh - (82.5px + 180px + 62px));
+        min-height: 200px;
+        margin-bottom: 60px;
+    }
+
+    .bg .main .categorie-ver .med{
+        margin-bottom: 80px;
+    }
+    .bg .main .categorie-ver .use{
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media(max-width:991.9px) {
+    .bg .B-title{
+        margin: 3.1vw auto !important;
+        font-size: 5.8vw !important;
+        text-shadow: rgb(102, 153, 169) 0.25vw 0.25vw 0.25vw !important;
+    }
+
+    .bg .main .categorie-hor{
+        height: calc(100vh - (14vw + 18vw));
+        width: 60%;
+    }
+
+    .bg .main .categorie-hor img{
+        padding: 0.5vw;
+    }
+
+    .bg .main .categorie-ver img{
+        padding: 0.5vw;
+    }
+}
+

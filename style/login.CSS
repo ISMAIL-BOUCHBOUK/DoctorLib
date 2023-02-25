@@ -1,0 +1,141 @@
+
+.bg {
+    background-image: url("media/20374.jpg");
+    background-position-x: center;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.bg .B-title{
+    margin: 50px auto;
+    width: 90%;
+    max-width: 700px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: rgb(102, 153, 169) 3px 3px 3px;
+    font-weight: bold;
+    display: block;
+}
+
+.bg .main {
+    background-color: #ffffffcc;
+    padding: 35px 20px;
+    width: 90vw;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.bg .main .row {
+    margin: auto;
+}
+
+.bg .main .row .pictur {
+    text-align: center;
+}
+
+.bg .main .row .pictur img{
+    width: 30%;
+}
+
+.bg .main .row .input {
+    padding: 12px;
+}
+
+.bg .main .row .submit {
+    text-align: center;
+}
+
+.bg .main .row .submit button {
+    background-color: rgba(19, 168, 214, 0.95);
+    color: white;
+    transition: background-color 300ms;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.bg .main .row .submit button:hover {
+    background-color: rgba(92, 184, 92, 0.95);
+}
+
+.bg .main .row .MTP-oublie {
+    color: rgba(19, 168, 214, 0.95);
+    transition: color 300ms;
+    font-size: 16px;
+    margin: 12px 12px 0px;
+    width: fit-content;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.bg .main .row .MTP-oublie:hover {
+    color: rgba(92, 184, 92, 0.95);
+}
+
+@media(max-width:767.9px){
+    .bg .B-title{
+        margin: 6.7vw auto;
+        font-size: 5.8vw;
+        text-shadow: rgb(102, 153, 169) 0.25vw 0.25vw 0.25vw;
+    }
+}
+
+@media(max-width:575.9px){
+    .bg .main {
+        padding: 7vw 4vw;
+        margin-bottom: 5vw;
+    }
+
+    .bg .main .row .input {
+        padding: 2.4vw;
+    }
+
+    .bg .main .row .input .form-floating {
+        font-size: 2vw;
+    }
+
+    .bg .main .row .input .form-floating input , .bg .main .row .input .form-floating select{
+        font-size: 2.5vw;
+        height: 9.5vw;
+        padding: 4vw 2.4vw 1vw;
+        border-radius: 1.5vw;
+        border-width: 0.2vw;
+    }
+
+    .bg .main .row .input .form-floating input:focus , .bg .main .row .input .form-floating select:focus{
+        box-shadow: 0 0 0 1vw rgba(13, 110, 253, 0.25);
+    }
+
+    .bg .main .row .input .form-floating label {
+        padding: 3vw 2.4vw 3vw;
+        font-size: 2vw;
+        border-width: 0px;
+    }
+
+    .bg .main .row .input .form-floating .focused {
+        transform: scale(0.85) translateY(-1.5vw) translateX(0.7vw);
+    }
+
+    .bg .main .row .submit {
+        font-size: 0px;
+    }
+
+    .bg .main .row .submit button {
+        font-size: 2.5vw;
+        padding: 2vw 6vw;
+        border-radius: 2vw;
+    }
+
+    
+    .bg .main .row .MTP-oublie {
+        font-size: 2.5vw;
+        margin: 2.4vw 2.4vw 0px;
+        padding: 0px;
+    }
+
+
+}

@@ -1,0 +1,453 @@
+.bg .header .navbar-searche {
+    height: fit-content;
+}
+
+.bg .header .search-box{
+    margin: 10px 0px 20px !important;
+}
+
+.bg .header .search-box form .search-avan{
+    margin: 4.5px 0px 0px;
+}
+
+.resultat {
+    width: 90vw;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+.resultat .dr {
+    width: 75%;
+    background-color: white;
+    margin: 30px 0px;
+    box-shadow: 10px 10px 20px rgb(151, 151, 151);
+    border-radius: 15px;
+}
+
+.resultat .dr .dr-p1 {
+    padding: 20px;
+    min-height: 170px;
+    border-bottom: 2px solid rgb(213, 213, 213);
+}
+
+.resultat .dr .dr-p1 .dr-picture {
+    width: 130px;
+    height: 130px;
+    float: left;
+    border-radius: 65px;
+    margin-right: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.resultat .dr .dr-p1 .dr-sp {
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    color: #909090;
+}
+
+.resultat .dr .dr-p1 .dr-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0.5vw 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.resultat .dr .dr-p1 .dr-adresse {
+    margin-left: 160px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #909090;
+    display: block;
+}
+
+.resultat .dr .dr-p2 {
+    padding: 10px 20px;
+    height: 61px;
+}
+
+.resultat .dr .dr-p2 .dr-sexe {
+    background-size: cover;
+    height:80%;
+    float: left;
+    margin: 3.125px 30px 3.125px 10px;
+    padding-right: 15px;
+    border-right: 2px solid rgb(213, 213, 213);
+}
+
+.resultat .dr .dr-p2 .dr-tele {
+    color: #E74F84;
+    border: 3px solid #E74F84;
+    padding: 6px 25px;
+    height:100%;
+    float: left;
+    border-radius: 20px;
+    font-weight: bold;
+    transition-property: background-color, color;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+.resultat .dr .dr-p2 .dr-tele:hover {
+    background-color: #E74F84;
+    color: white;
+    cursor:default;
+}
+
+.resultat .dr .dr-p2 .dr-voir-profil {
+    background-color: rgba(19, 168, 214, 0.95);
+    height: 100%;
+    color: white;
+    padding: 6px 30px;
+    font-size: 19px;
+    float: right;
+    font-weight: bold;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+.resultat .dr .dr-p2 .dr-voir-profil:hover {
+    background-color: rgba(12, 121, 237, 0.95);
+    cursor: pointer;
+}
+
+.alert-warning{
+    font-size: 16px !important;
+    margin: 0px 0px 16px !important;
+    padding: 16px !important;
+    border-radius: 6px !important;
+    border-width: 1px !important;
+}
+
+.pagination{
+    display: block;
+    font-size: 0px;
+    margin-bottom: 30px;
+}
+
+.pagination .page-item{
+    display: inline-block !important;
+}
+
+.pagination .page-item a{
+    font-size: 15px;
+    margin: 0px 0px 0px -1px;
+    padding: 6px 12px;
+    border-width: 1px;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+@media(max-width:991.9px) {
+    .bg .header .search-icon {
+        border: none !important;
+        margin: 0px !important;
+        margin-right: calc(50% - 12vw - 8vw) !important;
+    }
+
+    .bg .header .navbar-searche .offcanvas-body{
+        font-size: 0px ;
+    }
+
+    .bg .header .search-box {
+        width: 100%;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .bg .header .search-box form {
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    .bg .header .search-box form input ,
+    .bg .header .search-box form select ,
+    .bg .header .search-box form button  {
+        font-size: 3vw;
+        height: 6vw;
+        width: 100%;
+        margin:0px;
+        border-radius: 0.2vw;
+    }
+
+    .resultat .dr {
+        width: 85%;
+        margin: 24px 0px;
+        border-radius: 12px;
+    }
+
+    .resultat .dr .dr-p1 {
+        padding: 16px;
+        min-height: 136px;
+    }
+
+    .resultat .dr .dr-p1 .dr-picture {
+        width: 104px;
+        height: 104px;
+        border-radius: 52px;
+        margin-right: 24px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-sp {
+        font-size: 12px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-name {
+        font-size: 22.4px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-adresse {
+        margin-left: 129px;
+        font-size: 13.6px;
+    }
+
+    .resultat .dr .dr-p2 {
+        padding: 8px 16px;
+        height: 48.8px;
+    }
+    
+    .resultat .dr .dr-p2 .dr-sexe {
+        margin: 2.5px 24px 2.5px 8px;
+        padding-right: 12px;
+    }
+    
+    .resultat .dr .dr-p2 .dr-tele {
+        padding: 4px 20px;
+        border-radius: 16px;
+        font-size: 12.8px;
+    }
+    
+    .resultat .dr .dr-p2 .dr-voir-profil {
+        padding: 4.5px 24px;
+        font-size: 15.2px;
+        float: right;
+        font-weight: bold;
+        border-radius: 6.4px;
+    }
+
+    .alert-warning{
+        font-size: 12.8px !important;
+        margin: 0px 0px 12.8px !important;
+        padding: 12.8px !important;
+        border-radius: 4.8px !important;
+        border-width: 0.8px !important;
+    }
+
+    .pagination{
+        margin-bottom: 24px;
+    }
+
+    .pagination .page-item a{
+        font-size: 12px;
+        margin: 0px 0px 0px -0.8px !important;
+        padding: 4.8px 9.6px;
+        border-width: 0.8px;
+    }
+    
+    .page-item:first-child .page-link {
+        border-top-left-radius: 4.8px;
+        border-bottom-left-radius: 4.8px;
+    }
+    
+    .page-item:last-child .page-link {
+        border-top-right-radius: 4.8px;
+        border-bottom-right-radius: 4.8px;
+    }
+}
+
+
+@media(max-width:767.9px) {
+
+    .resultat .dr {
+        width: 100%;
+        margin: 18px 0px;
+        border-radius: 9px;
+    }
+
+    .resultat .dr .dr-p1 {
+        padding: 12px;
+        min-height: 102px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-picture {
+        width: 78px;
+        height: 78px;
+        border-radius: 39px;
+        margin-right: 18px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-sp {
+        font-size: 9px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-name {
+        font-size: 16.8px;
+    }
+    
+    .resultat .dr .dr-p1 .dr-adresse {
+        margin-left: 96px;
+        font-size: 10.2px;
+    }
+
+    .resultat .dr .dr-p2 {
+        padding: 6px 12px;
+        height: 36.6px;
+    }
+    
+    .resultat .dr .dr-p2 .dr-sexe {
+        margin: 1.875px 18px 1.875px 6px;
+        padding-right: 9px;
+    }
+    
+    .resultat .dr .dr-p2 .dr-tele {
+        padding: 3.5px 15px;
+        border-radius: 12px;
+        font-size: 9.6px;
+        border: 2px solid #E74F84;
+    }
+    
+    .resultat .dr .dr-p2 .dr-voir-profil {
+        padding: 3.5px 18px;
+        font-size: 11.4px;
+        border-radius: 4.8px;
+    }
+    
+    .alert-warning{
+        font-size: 9.6px !important;
+        margin: 0px 0px 9.6px !important;
+        padding: 9.6px !important;
+        border-radius: 3.6px !important;
+        border-width: 0.6px !important;
+    }
+    
+    .pagination{
+        margin-bottom: 18px;
+    }
+
+    .pagination .page-item a{
+        font-size: 9px;
+        margin: 0px 0px 0px -0.6px !important;
+        padding: 3.6px 7.2px;
+        border-width: 0.6px;
+    }
+    
+    .page-item:first-child .page-link {
+        border-top-left-radius: 3.6px;
+        border-bottom-left-radius: 3.6px;
+    }
+    
+    .page-item:last-child .page-link {
+        border-top-right-radius: 3.6px;
+        border-bottom-right-radius: 3.6px;
+    }
+}
+
+
+@media(max-width:575.9px) {
+
+    .resultat {
+        width: 100vw;
+    }
+
+    .resultat .dr {
+        width: 100%;
+        margin: 2vw 0px;
+        border-radius: 0px;
+    }
+
+    .resultat .dr .dr-p1 {
+        padding: 2vw;
+        min-height: 17vw;
+        border-bottom: 0.3vw solid rgb(213, 213, 213);
+    }
+    
+    .resultat .dr .dr-p1 .dr-picture {
+        width: 13vw;
+        height: 13vw;
+        border-radius: 6.5vw;
+        margin-right: 3vw;
+    }
+    
+    .resultat .dr .dr-p1 .dr-sp {
+        font-size: 1.5vw;
+    }
+    
+    .resultat .dr .dr-p1 .dr-name {
+        font-size: 2.8vw;
+    }
+    
+    .resultat .dr .dr-p1 .dr-adresse {
+        margin-left: 16vw;
+        font-size: 1.7vw;
+    }
+
+    .resultat .dr .dr-p2 {
+        padding: 1vw 2vw;
+        height: 6.1vw;
+    }
+    
+    .resultat .dr .dr-p2 .dr-sexe {
+        margin: 0.3vw 3vw 0.3vw 1vw;
+        padding-right: 1.5vw;
+        border-right: 0.3vw solid rgb(213, 213, 213);
+    }
+    
+    .resultat .dr .dr-p2 .dr-tele {
+        padding: 0.5vw 2.5vw;
+        border-radius: 2vw;
+        font-size: 1.6vw;
+        border: 0.4vw solid #E74F84;
+    }
+    
+    .resultat .dr .dr-p2 .dr-voir-profil {
+        padding: 0.6vw 3vw;
+        font-size: 1.9vw;
+        border-radius: 0.8vw;
+    }
+    
+    .alert-warning{
+        font-size: 1.6vw !important;
+        margin: 0px 0px 1.6vw !important;
+        padding: 1.6vw !important;
+        border-radius: 0px !important;
+        border-width: 0.1vw !important;
+    }
+    
+    .pagination{
+        margin-bottom: 2vw;
+        margin-left: 2vw;
+    }
+
+    .pagination .page-item a{
+        font-size: 1.5vw;
+        margin: 0px 0px 0px -0.1vw !important;
+        padding: 0.6vw 1.2vw;
+        border-width: 0.1vw;
+    }
+    
+    .page-item:first-child .page-link {
+        border-top-left-radius: 0.6vw;
+        border-bottom-left-radius: 0.6vw;
+    }
+    
+    .page-item:last-child .page-link {
+        border-top-right-radius: 0.6vw;
+        border-bottom-right-radius: 0.6vw;
+    }
+}
